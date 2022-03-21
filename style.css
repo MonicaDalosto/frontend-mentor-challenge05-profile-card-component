@@ -10,9 +10,6 @@ Dark grayish blue: hsl(227, 10%, 46%)
 
 ### Neutral Color
 Dark gray: hsl(0, 0%, 59%)
-
-## Typography
-### Body Copy - Font size (name and stats): 18px
 */
 
 * {
@@ -21,12 +18,16 @@ Dark gray: hsl(0, 0%, 59%)
   box-sizing: border-box;
 }
 
+html {
+  font-size: 62.5%;
+}
+
 body {
   font-family: 'Kumbh Sans', sans-serif;
   background-color: hsl(185, 75%, 39%);
-  /* background-image: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg); */
-  /* background-repeat: no-repeat; */
-  /* background-position: right top, left bottom; */
+  background-image: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
+  background-repeat: no-repeat;
+  background-position: right 45vw bottom 40vh, left 40vw top 40vh;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -37,23 +38,75 @@ body {
   width: 325px;
   margin: auto;
   background-color: white;
-  border-radius: 10px;
+  border-radius: 15px;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.200);
 }
 
 header {
   background-image: url(images/bg-pattern-card.svg);
   background-size: cover auto;
   height: 140px;
-  border-radius: 10px 10px 0 0;
+  border-radius: 15px 15px 0 0;
+  position: relative;
 }
 
+img {
+  border-radius: 100%;
+  border: 5px solid white;
+  position: absolute;
+  top: 92px;
+  left: 35%;
+}
 
+h1, h2, .name p {
+  font-size: 1.8rem;
+}
 
+h1 {
+  color: hsl(229, 23%, 23%);
+  padding: 1rem;
+}
 
+p {
+  color: hsl(227, 10%, 46%);
+}
 
+.london {
+  margin-bottom: 25px;
+  font-size: 1.4rem;
+}
+
+.stats p {
+  font-size: 1.1rem;
+  padding-top: 0.5rem;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 65px;
+}
+
+.name {
+  display: flex;
+  align-items: center;
+}
+ 
+.stats {
+  display: flex;
+  justify-content: space-around;
+  padding: 25px;
+  border-top: 1px solid hsla(0, 0%, 59%, 0.2);
+}
+
+.stat-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 footer {
-  width: 100%;
   text-align: center;
   padding: 5px;
 }
@@ -62,8 +115,18 @@ footer {
   font-size: 11px;
   text-align: center; 
   display: inline;
+  color: white;
 }
 
 .attribution a {
-  color: hsl(228, 45%, 44%); 
+  color: white;
+}
+
+@media screen and (min-width: 950px) {
+  body {
+    background-position: right 51vw bottom 40vh, left 49vw top 50vh;
+  }
+  .container {
+    width: 350px;
+  }
 }
