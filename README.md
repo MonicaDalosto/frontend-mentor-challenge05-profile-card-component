@@ -1,9 +1,7 @@
-# frontend-mentor-challenge05-profile-card-component
- Projects built from frontendmentor.io
+# Frontend Mentor - Profile card component solution
 
-
-This is a solution to the Fifth challenge from Frontend Mentor. Frontend Mentor challenges is helping me  improve my coding skills by building realistic projects. 
-The challenge: [3-column preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-). 
+This is a solution to the Sixth challenge from Frontend Mentor. Frontend Mentor challenges is helping me  improve my coding skills by building realistic projects. 
+The challenge: [Profile card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/profile-card-component-cfArpWshJ). 
 
 ## Table of contents
 
@@ -23,25 +21,26 @@ The challenge: [3-column preview card component challenge on Frontend Mentor](ht
 
 Users should be able to:
 
-- View the optimal layout depending on their device's screen size
-- See hover states for interactive elements
+- Build out the project to the designs provided
+- The circle images on the background
 
 ### Screenshot
 - Desktop Screen: <br>
 ![Desktop Screen](./screenshot/desktop-screen.png)
-- Active Desktop Screen (The three buttons have the same style when on hover): <br>
-![Active Desktop Screen (The three buttons have the same style when on hover):](./screenshot/active-desktop-screen.png)
+
 - Mobile Screen <br>
 ![Mobile Screen](./screenshot/mobile-screen.png)
 
 ### Links
 
-- Solution URL: [3 Column preview card component](https://github.com/MonicaDalosto/frontend-mentor-challenge05-3column-preview-card-component)
+- Solution URL: [Profile card component challenge](https://github.com/MonicaDalosto/frontend-mentor-challenge06-profile-card-component)
+
+- Live Site URL: [Challeng Webpage](https://monicadalosto.github.io/frontend-mentor-challenge06-profile-card-component/)
 
 ## My process
 
 - I started on the Html file, adding the semantic elements and the divs;
-- I had imported the fonts and created some variables to identify the font-family and the colors;
+- In this project I didn't use the variables, because It doesn't work on some browsers.
 - I tried to style the elements on CSS using classes instead of the html elements, so I chose the properly class names;
 - The project is mobile first (screen: 375px);
 - I had used Flexbox to position the elements on the screen;
@@ -57,8 +56,8 @@ Users should be able to:
 
 ### What I learned
 
-- I've practiced how to create and use the variables in CSS and the flexbox tools
 - I've practiced how to code using the mobile first concept
+- How to use the background-position to position the images on the background
 
 ### Continued development
 
@@ -70,4 +69,3 @@ Users should be able to:
 
 - Frontend Mentor - [@MonicaDalosto](https://www.frontendmentor.io/profile/MonicaDalosto)
 - Github - [@MonicaDalosto](https://github.com/MonicaDalosto)
-
